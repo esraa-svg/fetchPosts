@@ -13,7 +13,7 @@ function App() {
         <Home />
       ),
     },{
-      path: "/details",
+      path: "/:id",
       element: (
         <Details />
       ),
