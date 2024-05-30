@@ -1,0 +1,159 @@
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+.pagination span {
+  margin: 4px 10px;
+}
+.item-info h6 .know-more {
+  color: #555; 
+  font-weight: bold;
+  text-decoration: underline; 
+}
+
+.item-info h6 .know-more:hover {
+  color: black;
+}
+
+
+.commentsHeader {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.postTitle:hover {
+  background-color: rgb(190, 158, 158);
+  color: #fff;
+}
+
+.item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: calc(33.33% - 40px); /* Adjust the width of each item based on the desired number of items per row */
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.top{
+  font-size: 1.5em; 
+  color: #555; 
+  margin-bottom: 0.3em; 
+  text-align: center; 
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.editTitle {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.postTitle {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  border: 2px solid navy;
+  border-radius: 5px;
+  
+}
+.commentBody {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  margin-left: 1em;
+  padding: 0.5em;
+  border-left: 3px solid #007BFF;
+  background-color: #f9f9f9;
+}
+
+.item-info {
+  padding: 10px; 
+    border-radius: 5px; 
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.item-info h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2em; 
+  margin-bottom: 0.5em;
+}
+.item-info p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1em; 
+  line-height: 1.4; 
+  color: #333; 
+}
+
+.item-info h6 {  
+  font-size: 0.9em; 
+  font-weight: bold;
+color: #007bff; 
+  margin-top: 0.5em;
+}
+.input-container {
+  max-width: 400px; 
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-container input:focus {
+  border-color: #007bff; 
+}
