@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Home.css';
 function Home() {
        // State to hold the list of posts
     const [posts, setPosts] = useState([]);
      // State to hold the input text for filtering posts
-    const [inputText, setInputText] = useState("");
+    const [inputText, setInputText] = useState(" ");
     // State to handle loading state
     const navigate = useNavigate();
     // State to handle any errors during data fetching
